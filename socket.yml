@@ -1,12 +1,11 @@
 name: user-auth
 description: Basic user auth/register Socket
-version: 0.0.1
+version: 0.0.2
 keywords:
   - user
   - register
   - auth
   - authentication
-
 endpoints:
   login:
     file: scripts/login.js
@@ -14,24 +13,22 @@ endpoints:
       username:
         type: string
         description: Username
-        example: "joe"
+        example: joe
       password:
         type: string
         description: User password
-        example: "super-sercret-password"
+        example: super-sercret-password
     response:
       mimetype: application/json
       examples:
-        -
-          exit_code: 200
+        - exit_code: 200
           description: Success
           example: |
             {
               token: "cb21ff98ac8c7dda8fcd0129b0adb0254dea5c8e",
               username: "u"
             }
-        -
-          exit_code: 400
+        - exit_code: 400
           description: Failed
           example: |
             {}
@@ -41,24 +38,22 @@ endpoints:
       username:
         type: string
         description: User name
-        example: "joe"
+        example: joe
       password:
         type: string
         description: User password
-        example: "super-sercret-password"
+        example: super-sercret-password
     response:
       mimetype: application/json
       examples:
-        -
-          exit_code: 200
+        - exit_code: 200
           description: Success
           example: |
             {
               token: "cb21ff98ac8c7dda8fcd0129b0adb0254dea5c8e",
               username: "u"
             }
-        -
-          exit_code: 400
+        - exit_code: 400
           description: Failed
           example: |
             {}
