@@ -20,15 +20,15 @@ function createUser () {
   const user = {
     username,
     password,
+    national_id: ARGS.national_id
   }
 
   users.create(user)
     .then(res => {
       response.json({
         id: res.id,
-        token: res.user_key,
+        user_key: res.user_key,
         email: res.email,
-
       })
     })
     .catch(({ response: err }) => {
