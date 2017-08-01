@@ -1,6 +1,6 @@
 name: user-auth
 description: Basic user auth/register Socket
-version: 0.0.5
+version: 0.0.6
 keywords:
   - user
   - register
@@ -8,7 +8,7 @@ keywords:
   - authentication
 icon:
   background: null
-  url: https://cdn.rawgit.com/eyedea-io/syncano-socket-user-auth/master/icon.svg
+  url: 'https://cdn.rawgit.com/eyedea-io/syncano-socket-user-auth/master/icon.svg'
 endpoints:
   login:
     file: scripts/login.js
