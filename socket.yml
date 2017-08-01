@@ -8,8 +8,7 @@ keywords:
   - authentication
 icon:
   background: null
-  url: >-
-    https://raw.githubusercontent.com/eyedea-io/syncano-socket-user-auth/master/icon.svg
+  url: https://cdn.rawgit.com/eyedea-io/syncano-socket-user-auth/master/icon.svg
 endpoints:
   login:
     file: scripts/login.js
