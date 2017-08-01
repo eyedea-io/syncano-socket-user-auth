@@ -1,6 +1,6 @@
 name: user-auth
 description: Basic user auth/register Socket
-version: 0.0.6
+version: 0.0.7
 keywords:
   - user
   - register
