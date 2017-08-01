@@ -7,7 +7,7 @@ keywords:
   - auth
   - authentication
 icon:
-  background: '#1113f'
+  background: '#111a3f'
   url: 'https://cdn.rawgit.com/eyedea-io/syncano-socket-user-auth/master/icon.svg'
 endpoints:
   login:
