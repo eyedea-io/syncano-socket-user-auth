@@ -27,7 +27,7 @@ function createUser () {
 function respondWithUser (res) {
   response.json({
     id: res.id,
-    user_key: res.user_key,
+    token: res.user_key,
     email: res.email
   })
 }
