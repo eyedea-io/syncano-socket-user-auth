@@ -26,7 +26,7 @@ function authorizeUser () {
 }
 
 function respondWithValidCredentials ({data}) {
-  response.json({token: data.user_key, username: data.username})
+  response.json({user_key: data.user_key, username: data.username})
 }
 
 function respondWithInvalidCredentials () {
