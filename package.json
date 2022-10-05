@@ -1,6 +1,12 @@
 {
   "dependencies": {
-    "axios": "^0.16.2",
-    "syncano-server": "beta"
-  }
+    "axios": "^0.21.3",
+    "syncano-server": "beta",
+    "@snyk/protect": "latest"
+  },
+  "scripts": {
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
